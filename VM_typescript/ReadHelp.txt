@@ -1,0 +1,46 @@
+TypeScript 2020. Быстрый Курс за 70 минут
+Владилен Минин
+https://www.youtube.com/watch?v=nyIpDs2DJ_c
+
+
+5:04
+npm install -g typescript
+
+//fix error
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+6:29 run typescript
+tsc 1\ types.ts
+
+6:53 run nodeJS
+node types.js
+
+21:29
+interfaces.js
+
+26:09
+inheritance of interface
+
+32:18 
+enum
+
+36:24
+function
+
+43:24
+class
+
+47:10
+modificator
+
+51:08
+Abstract class
+
+53:40
+guards
+
+58:50​
+Generics
+
+01:01:40​
+Operators

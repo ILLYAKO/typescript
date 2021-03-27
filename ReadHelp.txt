@@ -1,0 +1,82 @@
+Продвинутый TypeScript. Декораторы, Компилятор, Generic Types, Namespaces
+Владилен Минин
+https://youtu.be/7NU6K4170As
+
+2:30
+npm init -y // with default param
+
+4:37 Global install
+npm i -g typescript
+
+3:12
+npm install -D typescript
+
+4:01
+tsc -v
+
+5:05
+index.html
+
+5:30
+materialize css
+
+6:36
+tsc //ts compiler all files
+tsc app.ts // ts compiler single file
+
+7:45
+tsc --init
+
+8:18
+tsconfig.json
+
+9:28 //"eclude"
+tsconfig.json
+{
+    "compilerOptions":{.......},
+    "exclude":[
+        "./module.ts"
+    ]
+}
+
+12:27
+
+12:27 //"include"
+tsconfig.json
+{
+    "compilerOptions":{.......},
+    "include":[
+        "./src/**/*"
+    ]
+}
+
+12:53 //"files"
+tsconfig.json
+{
+    "compilerOptions":{.......},
+    "files":[
+        "./module.ts"
+    ]
+}
+
+14:20 //output
+tsconfig.json
+{
+    "compilerOptions":{
+    .......,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    .......,    
+    }
+}
+
+16:12  index.html
+<script src="dist/app.js" defer></script>
+
+19:56 tsconfig.json
+"target": "es6"
+
+39:48
+generic.ts
+
+1:09:26
