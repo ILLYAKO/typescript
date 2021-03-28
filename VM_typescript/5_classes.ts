@@ -10,7 +10,7 @@ class Typescript {
   }
 }
 
-// class Car {
+// class Car1 {
 //   readonly model: string;
 //   readonly numberOfWheels: number = 4;
 
@@ -18,9 +18,9 @@ class Typescript {
 //     this.model = theModel;
 //   }
 // }
-class Car {
+class Car1 {
   readonly numberOfWheels: number = 4;
-  constructor(readonly model: string) {}
+  constructor(readonly model1: string) {}
 }
 
 //-----------------------------------
@@ -51,14 +51,14 @@ cat.setVoice("test");
 console.log(cat.color);
 
 //-----------------------
-abstract class Component {
+abstract class Component1 {
   abstract render(): void;
   abstract info(): string;
 }
 
-class AppConponent extends Component {
+class AppConponent extends Component1 {
   render(): void {
-    console.log("Component on render");
+    console.log("Component1 on render");
   }
 
   info(): string {

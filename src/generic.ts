@@ -77,3 +77,26 @@ numbers.remove(3);
 console.log(numbers.items);
 
 //-----------------------------
+interface Car {
+  model: string;
+  year: number;
+}
+
+function createAndValidateCar(model: string, year: number): Car {
+  const car: Partial<Car> = {};
+  if (model.length > 3) {
+    car.model = model;
+  }
+  if (year > 2000) {
+    car.year = year;
+  }
+  return car as Car;
+}
+
+//-----------------------------------------
+const cars: Readonly<Array<string>> = ["Ford", "Audi"]; // Readonly
+
+const ford: Readonly<Car> = {
+  model: "Ford",
+  year: 2020,
+};

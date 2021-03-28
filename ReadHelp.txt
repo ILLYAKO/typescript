@@ -79,4 +79,16 @@ tsconfig.json
 39:48
 generic.ts
 
-1:09:26
+1:15:09
+decorators.ts // Patern
+
+1:52:21
+namespaces.ts
+
+1:58:06
+///<reference path="form-namespace.ts" />
+
+2:03:36
+library
+-class-transformer
+-class-validator
